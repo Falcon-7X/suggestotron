@@ -6,4 +6,7 @@ Rails.application.routes.draw do
     end
   end
   root "topics#index"
+
+  get 'about' => 'topics#about'
+
 end
